@@ -44,7 +44,7 @@ end
 
 
 act=1;
-if All_node_num>=0
+if num>=0
     for i=1:1:length(node_list)
         node=node_list{i};
         number=number_list{i};
@@ -52,7 +52,7 @@ if All_node_num>=0
 %-----------getpath------------------------------------------------    
    %act=1; %1from path 3 from ans
 %node='02676566';
-url=['http://imagenetapi.appspot.com/getpath?node=' node '&act=' num2str(act) '&number=' number];  %軌跡資料 EX  http://mjimagenetapi.appspot.com/getpath?node=02127808&act=1  
+url=['http://imagenetapi.appspot.com/getpath?node=' node '&act=' num2str(act) '&act=' num2str(act)];  %軌跡資料 EX  http://mjimagenetapi.appspot.com/getpath?node=02127808&act=1  
 
 s = urlread(url);
 if length(s)>10
