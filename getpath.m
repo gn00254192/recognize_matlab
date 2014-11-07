@@ -14,11 +14,11 @@ if length(s)>10
     a= dir([name '.txt']);
     pause(10);
     
-    if a.bytes>10000            
-        n1=findstr(s,'http:/summer3c.host56.com/upload/')-2;
-        s1=s(1:n1);
-        url=['http://mjimagenetapi.appspot.com/getpath?key=' s1 '&act=' num2str(act+1)];
-        s = urlread(url);
-    end
+   % if a.bytes>10000            
+    %    n1=findstr(s,'http:/summer3c.host56.com/upload/')-2;
+     %   s1=s(1:n1);
+   %    url=['http://mjimagenetapi.appspot.com/getpath?key=' s1 '&act=' num2str(act+1)];
+   %     s = urlread(url);
+ %   end
     
 end

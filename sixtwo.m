@@ -1,4 +1,4 @@
-function [ output_args ] = sixtwo1( num )
+function [ output_args ] = sixtwo( num )
 %SIXTWO1 Summary of this function goes here
 %   Detailed explanation goes here
 output_args=0;
